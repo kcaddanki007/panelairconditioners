@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero: "bg-gradient-to-r from-[hsl(var(--industrial-blue))] to-[hsl(var(--industrial-accent))] text-primary-foreground hover:shadow-[var(--shadow-industrial)] transition-all duration-300 font-semibold",
+        industrial: "bg-[hsl(var(--industrial-blue))] text-primary-foreground hover:bg-[hsl(var(--industrial-blue-light))] shadow-[var(--shadow-card)] transition-all duration-200",
+        quote: "bg-[hsl(var(--industrial-accent))] text-accent-foreground hover:bg-[hsl(var(--industrial-accent))]/90 font-semibold tracking-wide",
       },
       size: {
         default: "h-10 px-4 py-2",
